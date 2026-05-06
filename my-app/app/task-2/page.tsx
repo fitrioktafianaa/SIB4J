@@ -3,10 +3,10 @@ export default function TaskPage() {
     <div className="bg-gray-50 min-h-screen p-10 flex flex-col items-center gap-6">
       
       {/* BARIS ATAS: Grid 2 Kolom */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl w-full">
+      <div className="grid grid-cols-2 gap-6 max-w-6xl w-full">
         
         {/* Adobe Photoshop */}
-        <div className="bg-cyan-50 p-8 flex flex-col justify-between rounded-[2.5rem] min-h-[280px]">
+        <div className="bg-cyan-100 p-8 flex flex-col justify-between rounded-[2.5rem] min-h-[280px]">
           <div className="flex items-center gap-2">
             <img src="palette.svg" alt="palette" className="w-6 h-6"/> 
             <p className="text-cyan-800 font-medium font-bold">Design</p>
@@ -17,22 +17,22 @@ export default function TaskPage() {
           </div>
         </div>
 
-        {/* AI */}
+       {/* AI */}
         <div className="bg-green-100 p-8 flex flex-col justify-between rounded-[2.5rem] min-h-[280px]">
           <div className="flex items-center gap-2">
             <img src="terminal-2.svg" alt="Terminal" className="w-6 h-6"/>  
             <p className="text-green-800 font-medium font-bold">AI</p>
+            <img className="ml-auto" src="star.svg" alt="icon star"/>
           </div>
           <div>
             <h1 className="text-3xl font-bold text-green-950">DALL·E 2, Midjourney, Stable Diffusion</h1>
             <p className="text-green-700 opacity-70 font-bold">in 5 days</p>
           </div>
         </div>
-
       </div>
 
       {/* BARIS BAWAH: Grid 3 Kolom */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl w-full">
+      <div className="grid grid-cols-3 gap-6 max-w-6xl w-full">
         
         {/* Figma */}
         <div className="bg-purple-100 p-8 flex flex-col justify-between rounded-[2.5rem] min-h-[280px]">
